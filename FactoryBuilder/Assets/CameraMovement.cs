@@ -23,7 +23,6 @@ public class CameraMovement : MonoBehaviour
     }
 
     private void Update() {
-        Debug.Log(currentSpeed);
         if(Vector3.Distance(transform.position, Selector.transform.position) >= maxDistance){
             currentSpeed *= 1.05f;   
         }else if (Vector3.Distance(transform.position, Selector.transform.position) <= resetDistance)
