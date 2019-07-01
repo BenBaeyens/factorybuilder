@@ -1246,6 +1246,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f79020ce949c6446b1c0abf02bd2a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxDistance: 25
+  resetDistance: 23.5
   offset: {x: 0, y: 23, z: 0}
   followSpeed: 0.6
 --- !u!20 &282840813
@@ -1455,25 +1457,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 103727044}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &340291777 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1729182189833829739, guid: f72e9d41590c8fa479e499a385b3c136,
-    type: 3}
-  m_PrefabInstance: {fileID: 1729182190164659626}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &340291779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340291777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18ced602327b2024db093242e66545ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpDistance: 6
 --- !u!4 &356133986 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7328187936655544433, guid: 6681c7185dff33145a8fb51f25c53f91,
