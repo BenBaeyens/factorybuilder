@@ -8,6 +8,7 @@ public class SelectorController : MonoBehaviour
     [SerializeField] float jumpDistance;
 
     GameObject collisionDetection;
+    public GameObject floorObject;
 
     Vector3 currentPos;
 
@@ -75,6 +76,7 @@ public class SelectorController : MonoBehaviour
             if (hit.transform.name.Contains("Platform"))
             {
                 MoveCollisionDetectionObject(s, "Back");
+                floorObject = hit.transform.gameObject;
                 return true;
             }
         }
