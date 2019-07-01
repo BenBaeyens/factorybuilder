@@ -11,7 +11,6 @@ public class SelectorController : MonoBehaviour
 
     Vector3 currentPos;
 
-    [SerializeField] GameObject CollisionObject;
 
 
     #region Methods
