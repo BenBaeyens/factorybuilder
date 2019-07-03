@@ -6,12 +6,13 @@ public class Spitter : MonoBehaviour
 {
 
     [SerializeField] GameObject instantiateObjectTemp;
+    [SerializeField] float spitterSpawnDelay = 4f;
 
     #region Methods
 
     void Start()
     {
-        InvokeRepeating("SpawnObject", 0f, 2f);
+        InvokeRepeating("SpawnObject", spitterSpawnDelay, spitterSpawnDelay);
     }
 
     public void SpawnObject(){
