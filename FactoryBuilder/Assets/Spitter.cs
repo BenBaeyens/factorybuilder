@@ -16,7 +16,7 @@ public class Spitter : MonoBehaviour
     }
 
     public void SpawnObject(){
-        Instantiate(instantiateObjectTemp, transform.position + Vector3.forward * 2, transform.rotation);
+        Instantiate(instantiateObjectTemp, transform.position + Vector3.forward * 4, transform.rotation);
     }
 
     #endregion
