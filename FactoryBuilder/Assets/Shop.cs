@@ -43,7 +43,7 @@ public class Shop : MonoBehaviour
     }
 
     public void PurchaseSpitter(){
-        Instantiate(tempGameObject, selectorObject.transform.position, selectorObject.transform.rotation);
+        Instantiate(tempGameObject, selectorObject.transform.position + Vector3.up * 2f, selectorObject.transform.rotation);
         
     }
 
