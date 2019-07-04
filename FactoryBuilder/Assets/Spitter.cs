@@ -12,7 +12,7 @@ public class Spitter : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("SpawnObject", spitterSpawnDelay, spitterSpawnDelay);
+        InvokeRepeating("SpawnObject", spitterSpawnDelay / 2, spitterSpawnDelay);
     }
 
     public void SpawnObject(){
