@@ -15,11 +15,11 @@ public class BeltDetect : MonoBehaviour
         Selector = GameObject.Find("Selector");
     }
 
-    private void OnCollisionStay(Collider other) {
+    private void OnTriggerStay(Collider other) {
+        Debug.Log("test");
         
-        if(other.gameObject != Selector){
             other.gameObject.transform.position += transform.forward * speed;
-        }
+        
     }
 
     #endregion
